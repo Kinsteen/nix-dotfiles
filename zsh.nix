@@ -6,14 +6,14 @@
   initExtra = ''
     export PATH=$HOME/.nix-profile/bin:$PATH
   '';
+
   shellAliases = {
     ls = "eza";
     ll = "eza -lah";
   };
-  # initExtraFirst ="export ZSH=$HOME/.oh-my-zsh";
+
   oh-my-zsh = {
     enable = true;
-    custom = "$HOME/.oh-my-zsh";
     plugins = [
       "git"
       # "zsh-autosuggestions"

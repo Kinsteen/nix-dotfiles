@@ -85,7 +85,7 @@
     settings = {
       cmd_duration = {
         show_notifications = true;
-        min_time_to_notify = 5000;
+        min_time_to_notify = 20000;
       };  
     };
   };
@@ -93,7 +93,6 @@
   programs.neovim = {
     enable = true;
     defaultEditor = true;
-
   };
 
   programs.git = {
